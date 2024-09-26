@@ -7,14 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DepositeMicroService" />
+        <module name="TransferMicroService" />
+        <module name="NotificationMicroService" />
         <module name="APIGateway" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="APIGateway" options="-parameters" />
-      <module name="DepositeMicroService" options="-parameters" />
+      <module name="APIGateway" options="" />
+      <module name="DepositeMicroService" options="" />
+      <module name="TransferMicroService" options="" />
     </option>
   </component>
 </project>

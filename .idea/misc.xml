@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/APIGateway/pom.xml" />
         <option value="$PROJECT_DIR$/DepositeMicroService/pom.xml" />
+        <option value="$PROJECT_DIR$/TransferMicroService/pom.xml" />
+        <option value="$PROJECT_DIR$/NotificationMicroService/pom.xml" />
       </list>
     </option>
   </component>
