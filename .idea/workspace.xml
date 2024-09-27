@@ -4,7 +4,68 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90b8d3e3-c653-4b53-88b0-2964d231c638" name="Changes" comment="" />
+    <list default="true" id="90b8d3e3-c653-4b53-88b0-2964d231c638" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/exception/ClientSideException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/exception/InvalidTokenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/exception/TokenMissingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/exception/UserAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/kafka/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/logger/LoggerAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/security/SecurityComponentsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/security/jwt/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/security/jwt/JwtUtilsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/controller/account/AccountsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/controller/auth/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/dto/CommonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/dto/TransactionDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/entity/CommonAttributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/entity/account/AccountDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/entity/notification/NotificationDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/entity/transaction/TransactionDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/entity/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/enums/CommonEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/enums/roles/RoleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/enums/transaction/TransactionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/payload/request/auth/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/payload/request/auth/SignUpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/payload/response/auth/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/repo/account/AccountRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/repo/notification/NotificationRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/repo/transaction/TransactionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/repo/transaction/TransactionRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/repo/user/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/service/account/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/service/account/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/service/auth/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/service/auth/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/service/notification/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/service/notification/NotificationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/service/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/service/user/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/util/LocalDateAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/util/LocalDateTimeAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/util/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APIGateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/APIGateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DepositeMicroService/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/DepositMicroService/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DepositeMicroService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/DepositMicroService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DepositeMicroService/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/DepositMicroService/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DepositeMicroService/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/DepositMicroService/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DepositeMicroService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DepositMicroService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DepositeMicroService/src/main/java/com/application/depositemicroservice/DepositeMicroServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/DepositMicroService/src/main/java/com/application/depositemicroservice/DepositeMicroServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DepositeMicroService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/DepositMicroService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DepositeMicroService/src/test/java/com/application/depositemicroservice/DepositeMicroServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/DepositMicroService/src/test/java/com/application/depositemicroservice/DepositeMicroServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HistoryLogMicroService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HistoryLogMicroService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotificationMicroService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NotificationMicroService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferMicroService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TransferMicroService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TransferMicroService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TransferMicroService/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +74,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2mbipyVhnMWWNKArNrXdZLQWKtD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,20 +93,50 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "corretto-22",
+    "jdk.selected.JAVA_MODULE": "openjdk-22",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Desktop Shortcut/Demo Code/Spring Boot Demo Projects/Banking System/Banking System Microservice/APIGateway/src/main/java/com/application/apigateway",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Desktop Shortcut\Demo Code\Spring Boot Demo Projects\Banking System\Banking System Microservice\APIGateway\src\main\java\com\application\apigateway" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="APIGateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.application.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepositeMicroServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="DepositMicroService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.application.depositemicroservice.DepositeMicroServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationMicroServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="NotificationMicroService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.application.notificationmicroservice.NotificationMicroServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -68,7 +165,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727351864226</updated>
-      <workItem from="1727351865422" duration="2686000" />
+      <workItem from="1727351865422" duration="2875000" />
+      <workItem from="1727398468371" duration="1427000" />
     </task>
     <servers />
   </component>
