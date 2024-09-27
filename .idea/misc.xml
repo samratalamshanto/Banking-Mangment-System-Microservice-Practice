@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/NotificationMicroService/pom.xml" />
         <option value="$PROJECT_DIR$/HistoryLogMicroService/pom.xml" />
         <option value="$PROJECT_DIR$/DepositMicroService/pom.xml" />
+        <option value="$PROJECT_DIR$/WithdrawMicroService/pom.xml" />
       </list>
     </option>
   </component>

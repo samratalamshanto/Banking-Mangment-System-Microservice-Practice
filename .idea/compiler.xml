@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HistoryLogMicroService" />
+        <module name="WithdrawMicroService" />
         <module name="TransferMicroService" />
         <module name="NotificationMicroService" />
         <module name="APIGateway" />
@@ -21,6 +22,7 @@
       <module name="HistoryLogMicroService" options="-parameters" />
       <module name="NotificationMicroService" options="-parameters" />
       <module name="TransferMicroService" options="-parameters" />
+      <module name="WithdrawMicroService" options="-parameters" />
     </option>
   </component>
 </project>
