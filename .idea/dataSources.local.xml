@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-241.14494.240">
+    <data-source name="defaultdb@samrat-practice-samrat-5bf2.h.aivencloud.com" uuid="a1f4e633-e608-4f9a-a597-64b80af499be">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <user-name>avnadmin</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="defaultdb@samrat-practice-samrat-5bf2.h.aivencloud.com" uuid="1b47cd9a-dd39-4cb9-b874-8fe73632c774">
+      <database-info product="PostgreSQL" version="15.8" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.6.0" dbms="POSTGRES" exact-version="15.8" exact-driver-version="42.6">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>avnadmin</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="defaultdb@samrat-practice-samrat-5bf2.h.aivencloud.com" uuid="9885418c-f090-42b3-b1a3-3b7c5321e9d7">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <user-name>avnadmin</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="defaultdb@samrat-practice-samrat-5bf2.h.aivencloud.com" uuid="386b06fe-534f-4c53-98e9-159aabef5b0d">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <user-name>avnadmin</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
