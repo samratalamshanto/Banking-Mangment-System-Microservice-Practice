@@ -22,4 +22,8 @@ public interface AccountService {
     List<TransactionDetails> saveTransaction(TransactionDto dto, AccountDetails fromAccountDetails, AccountDetails toAccountDetails, HttpServletRequest request);
 
     CommonResponse getTransactionDetails(String accountNumber, HttpServletRequest request);
+
+    CommonResponse withdrawOperation(TransactionDto dto, HttpServletRequest request);
+
+    CommonResponse getAccountDetails(String accountNumber, HttpServletRequest request);
 }

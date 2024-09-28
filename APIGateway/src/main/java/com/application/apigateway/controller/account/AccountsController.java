@@ -5,6 +5,7 @@ import com.application.apigateway.dto.TransactionDto;
 import com.application.apigateway.repo.transaction.TransactionRepo;
 import com.application.apigateway.service.account.AccountService;
 import jakarta.servlet.http.HttpServletRequest;
+import jakarta.validation.constraints.NotNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -27,6 +28,15 @@ public class AccountsController {
         return accountService.creditOperation(dto, request);
     }
 
+    @PostMapping("/withdraw")
+    public CommonResponse withdraw(@RequestBody TransactionDto dto, HttpServletRequest request) {
+        return accountService.withdrawOperation(dto, request);
+    }
+
+    @GetMapping("/get-account-details")
+    public CommonResponse getAccountDetails(@NotNull @RequestParam String accountNumber, HttpServletRequest request) {
+        return accountService.getAccountDetails(accountNumber, request);
+    }
 
     @GetMapping("/get-all-transactions")
     public CommonResponse creditAccount(@RequestParam("accountNumber") String accountNumber, HttpServletRequest request) {

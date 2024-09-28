@@ -148,6 +148,16 @@ public class AccountServiceImpl implements AccountService {
         }
     }
 
+    @Override
+    public CommonResponse withdrawOperation(TransactionDto dto, HttpServletRequest request) {
+        return null;
+    }
+
+    @Override
+    public CommonResponse getAccountDetails(String accountNumber, HttpServletRequest request) {
+        return null;
+    }
+
     private String getTransactionNumber() {
         String txNum = "T";
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");

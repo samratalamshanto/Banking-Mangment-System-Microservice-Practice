@@ -14,6 +14,17 @@ import java.time.LocalDateTime;
 @Slf4j
 public class Utility {
     public static final String notificationTopic = "NotificationTopic";
+    public static final String depositTopic = "DepositTopic";
+    public static final String withdrawTopic = "WithDrawTopic";
+    public static final String fundTransferTopic = "FundTransferTopic";
+    public static final String historyLogTopic = "HistoryLogTopic";
+
+    public static final String notificationRollBackTopic = "NotificationRollBackTopic";
+    public static final String depositRollBackTopic = "DepositRollBackTopic";
+    public static final String withdrawRollBackTopic = "WithDrawRollBackTopic";
+    public static final String fundTransferRollBackTopic = "FundTransferRollBackTopic";
+    public static final String historyLogRollBackTopic = "HistoryLogRollBackTopic";
+
     public static final String notificationConsumerGrpId = "NotificationConsumerGrpId";
 
 

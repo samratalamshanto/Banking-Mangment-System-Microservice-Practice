@@ -1,6 +1,6 @@
 package com.application.apigateway.config.logger;
 
-import com.application.banking_system_monolithic.util.Utility;
+import com.application.apigateway.util.Utility;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Slf4j
 public class LoggerAspect {
 
-    @Around(value = "within(com.application.banking_system_monolithic.service..*) && within(com.application.banking_system_monolithic.controller..*)")
+    @Around(value = "within(com.application.apigateway.service..*) && within(com.application.apigateway.controller..*)")
     public Object log(final ProceedingJoinPoint joinPoint) throws Throwable {
         final String methodName = joinPoint.getSignature().getName();
         final String className = joinPoint.getTarget().getClass().getSimpleName();

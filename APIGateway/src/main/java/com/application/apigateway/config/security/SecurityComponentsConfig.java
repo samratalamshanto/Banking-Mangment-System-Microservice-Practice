@@ -1,7 +1,7 @@
 package com.application.apigateway.config.security;
 
 
-import com.application.banking_system_monolithic.repo.user.UserRepo;
+import com.application.apigateway.repo.user.UserRepo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

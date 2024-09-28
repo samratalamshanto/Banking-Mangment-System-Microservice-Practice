@@ -1,6 +1,6 @@
 package com.application.apigateway.config.security;
 
-import com.application.banking_system_monolithic.config.security.jwt.JwtAuthFilter;
+import com.application.apigateway.config.security.jwt.JwtAuthFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
