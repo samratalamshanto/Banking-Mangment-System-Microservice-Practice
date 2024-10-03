@@ -5,19 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90b8d3e3-c653-4b53-88b0-2964d231c638" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/exception/TooManyReqException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/ratelimiter/RateLimiterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1b47cd9a-dd39-4cb9-b874-8fe73632c774.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1b47cd9a-dd39-4cb9-b874-8fe73632c774.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/logger/LoggerAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/logger/LoggerAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/security/SecurityComponentsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/security/SecurityComponentsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APIGateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/security/jwt/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/security/jwt/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/controller/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/controller/auth/AuthController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/corretto-22.0.2/lib/src.zip!/java.base/java/util/concurrent/ConcurrentHashMap.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -126,7 +139,8 @@
       <workItem from="1727398468371" duration="4442000" />
       <workItem from="1727405621521" duration="1931000" />
       <workItem from="1727415234643" duration="52000" />
-      <workItem from="1727504120082" duration="40000" />
+      <workItem from="1727504120082" duration="1652000" />
+      <workItem from="1727927605067" duration="1989000" />
     </task>
     <servers />
   </component>
