@@ -11,10 +11,7 @@ import com.application.apigateway.service.user.UserService;
 import io.github.bucket4j.Bucket;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1/auth")
@@ -41,6 +38,15 @@ public class AuthController {
             throw new TooManyReqException("Too many requests");
         }
         return userService.loginUser(loginRequest);
+    }
+
+    @GetMapping("/rate-limiter-test")
+    public CommonResponse getObjTest(HttpServletRequest request) {
+        Bucket bucket = rateLimiterService.getBucket(request.getRemoteAddr());
+        if (!bucket.tryConsume(1)) {
+            throw new TooManyReqException("Too many requests");
+        }
+        return new CommonResponse();
     }
 
 }

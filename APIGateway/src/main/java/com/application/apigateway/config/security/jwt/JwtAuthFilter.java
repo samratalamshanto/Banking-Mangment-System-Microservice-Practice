@@ -44,7 +44,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
             UserDetails userDetails = userDetailsService.loadUserByUsername(userName);
 
             if (jwtUtilsService.isTokenValid(token, userDetails)) {
-                Bucket bucket = rateLimiterService.getBucket(token);
+                Bucket bucket = rateLimiterService.getBucket(userName);
                 if (!bucket.tryConsume(1)) {
                     response.setStatus(HttpStatus.TOO_MANY_REQUESTS.value());
                     return;

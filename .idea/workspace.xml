@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90b8d3e3-c653-4b53-88b0-2964d231c638" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/exception/TooManyReqException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/ratelimiter/RateLimiterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1b47cd9a-dd39-4cb9-b874-8fe73632c774.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1b47cd9a-dd39-4cb9-b874-8fe73632c774.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APIGateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/kafka/KafkaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/kafka/KafkaConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/security/jwt/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/config/security/jwt/JwtAuthFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/controller/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/APIGateway/src/main/java/com/application/apigateway/controller/auth/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/bank-system-api-gateway.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/bank-system-api-gateway.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,27 +45,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-22&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Desktop Shortcut/Demo Code/Spring Boot Demo Projects/Banking System/Banking System Microservice/APIGateway/src/main/java/com/application/apigateway&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-22",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Desktop Shortcut/Demo Code/Spring Boot Demo Projects/Banking System/Banking System Microservice/APIGateway/src/main/java/com/application/apigateway",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Desktop Shortcut\Demo Code\Spring Boot Demo Projects\Banking System\Banking System Microservice\APIGateway\src\main\java\com\application\apigateway" />
@@ -140,7 +138,8 @@
       <workItem from="1727405621521" duration="1931000" />
       <workItem from="1727415234643" duration="52000" />
       <workItem from="1727504120082" duration="1652000" />
-      <workItem from="1727927605067" duration="1989000" />
+      <workItem from="1727927605067" duration="2246000" />
+      <workItem from="1728047683623" duration="1298000" />
     </task>
     <servers />
   </component>

@@ -50,6 +50,11 @@ public class GlobalExceptionHandler {
     private ResponseEntity<CommonResponse> checkCommonException(Exception exception) {
         CommonResponse commonResponse = new CommonResponse(500, false, "Unknown internal server error.. Please try again later.", null);
 
+        if (exception instanceof TooManyReqException) {
+            commonResponse = new CommonResponse(HttpStatus.TOO_MANY_REQUESTS.value(), false, HttpStatus.TOO_MANY_REQUESTS.name(), null);
+            return new ResponseEntity<>(commonResponse, HttpStatus.TOO_MANY_REQUESTS);
+        }
+
         if (exception instanceof BadCredentialsException) {
             commonResponse = new CommonResponse(401, false, "The username or password is incorrect.", null);
             return new ResponseEntity<>(commonResponse, HttpStatus.UNAUTHORIZED);
